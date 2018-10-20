@@ -5,10 +5,12 @@ pipeline {
             steps {
                 echo 'Initializing Hello World ....'
             }
+        }
         stage('Build'){
             steps {
                 echo 'Building Hello World ....'
             }
         }
+    
     }
 }
